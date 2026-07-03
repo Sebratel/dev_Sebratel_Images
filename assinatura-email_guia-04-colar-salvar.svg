@@ -1,0 +1,34 @@
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" font-family="'Poppins','Segoe UI',Arial,sans-serif">
+  <defs>
+    <filter id="s4shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+    <marker id="s4arrow" markerWidth="14" markerHeight="14" refX="7" refY="7" orient="auto">
+      <path d="M2,2 L12,7 L2,12 Z" fill="#E30613"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="500" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+
+  <circle cx="60" cy="62" r="32" fill="#F59E0B"/>
+  <text x="60" y="75" font-size="36" font-weight="800" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="110" y="60" font-size="27" font-weight="800" fill="#111827">Cole seu código,</text>
+  <text x="110" y="90" font-size="27" font-weight="800" fill="#111827">aplique e salve</text>
+
+  <rect x="70" y="130" width="760" height="180" rx="14" fill="#1E1E2E" filter="url(#s4shadow)"/>
+  <text x="96" y="166" font-size="14" fill="#89DDFF" font-family="monospace">&lt;table cellpadding="0" cellspacing="0"&gt;</text>
+  <text x="96" y="190" font-size="14" fill="#C3E88D" font-family="monospace">  &lt;tr&gt;&lt;td&gt;&lt;img src="...logo.png"&gt;&lt;/td&gt;</text>
+  <text x="96" y="214" font-size="14" fill="#C3E88D" font-family="monospace">  &lt;td&gt;Nome Sobrenome&lt;/td&gt;&lt;/tr&gt;</text>
+  <text x="96" y="238" font-size="14" fill="#89DDFF" font-family="monospace">&lt;/table&gt;</text>
+  <text x="96" y="284" font-size="13" fill="#676E95" font-family="monospace">↑ apague o que estiver aqui e cole o seu código</text>
+
+  <rect x="640" y="326" width="130" height="46" rx="9" fill="#1A73E8"/>
+  <text x="705" y="355" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">Aplicar</text>
+
+  <line x1="70" y1="400" x2="830" y2="400" stroke="#E5E7EB" stroke-width="1.5"/>
+  <rect x="70" y="424" width="250" height="52" rx="9" fill="#F59E0B"/>
+  <text x="195" y="457" font-size="16" font-weight="800" fill="#111827" text-anchor="middle">Salvar alterações</text>
+
+  <path d="M 500 450 Q 400 455 330 452" stroke="#E30613" stroke-width="4.5" fill="none" marker-end="url(#s4arrow)"/>
+  <text x="520" y="456" font-size="16" fill="#374151">Role até o fim e clique em <tspan font-weight="700">Salvar</tspan>.</text>
+</svg>

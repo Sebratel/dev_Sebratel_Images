@@ -1,0 +1,36 @@
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" font-family="'Poppins','Segoe UI',Arial,sans-serif">
+  <defs>
+    <filter id="s1shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+    <marker id="s1arrow" markerWidth="14" markerHeight="14" refX="7" refY="7" orient="auto">
+      <path d="M2,2 L12,7 L2,12 Z" fill="#E30613"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="500" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+
+  <circle cx="60" cy="62" r="32" fill="#F59E0B"/>
+  <text x="60" y="75" font-size="36" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="110" y="60" font-size="27" font-weight="800" fill="#111827">Instale a extensão</text>
+  <text x="110" y="90" font-size="27" font-weight="800" fill="#111827">HTMaiL no Chrome</text>
+
+  <rect x="70" y="130" width="760" height="290" rx="16" fill="#F8F9FA" stroke="#E5E7EB" stroke-width="2" filter="url(#s1shadow)"/>
+  <text x="108" y="172" font-size="16" fill="#5F6368" font-weight="600">chrome web store</text>
+  <line x1="90" y1="192" x2="810" y2="192" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <rect x="108" y="222" width="86" height="86" rx="16" fill="#F8514F"/>
+  <text x="151" y="278" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">&lt;/&gt;</text>
+
+  <text x="215" y="248" font-size="23" font-weight="800" fill="#202124">HTMaiL: Insira HTML no Gmail,</text>
+  <text x="215" y="279" font-size="23" font-weight="800" fill="#202124">Outlook e Yahoo Email</text>
+  <text x="215" y="308" font-size="15" fill="#1A73E8" font-weight="600">htmail.dev</text>
+  <text x="300" y="308" font-size="15" fill="#188038" font-weight="600">★ 4,3</text>
+  <text x="360" y="308" font-size="15" fill="#5F6368">·  30.000 usuários</text>
+
+  <rect x="560" y="340" width="238" height="50" rx="25" fill="#1A73E8"/>
+  <text x="679" y="372" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">Adicionar ao Chrome</text>
+
+  <path d="M 470 455 Q 600 460 665 395" stroke="#E30613" stroke-width="4.5" fill="none" marker-end="url(#s1arrow)"/>
+  <text x="80" y="462" font-size="16" fill="#374151">Procure por <tspan font-weight="700">HTMaiL</tspan> e clique em Adicionar ao Chrome.</text>
+</svg>
